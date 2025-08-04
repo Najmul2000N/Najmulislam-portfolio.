@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form id="contactForm">
+      <div class="container">
+        <div class="name">
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" placeholder="First name" name="name" />
+
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" placeholder="Last name" name="surname" />
+        </div>
+
+        <div class="gender">
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="Male" />
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="Female" />
+          <label for="female">Female</label>
+        </div>
+
+        <div class="email">
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Email" id="email" name="email" />
+
+          <label for="phone">Phone Number:</label>
+          <input type="number" id="phone" placeholder="Type your Number" name="phone" />
+        </div>
+
+        <div class="message">
+          <label for="message">Leave a Message:</label>
+          <textarea id="message" name="message" placeholder="Your Feedback" rows="3" cols="50"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+    <script src="server.js"></script>
+  </body>
+</html>
