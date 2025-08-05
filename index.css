@@ -17,6 +17,11 @@ body {
   width: 100%;
 }
 
+.logo>img{
+  height: 35px;
+width: 70px;
+
+}
 .navbar {
   padding: 15px;
   display: flex;
@@ -50,7 +55,7 @@ body {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 95px;
     left: 10px;
     width: 200px;
   }
@@ -745,6 +750,7 @@ footer {
     transform: scale(1.03);
   }
 }
+
 
 
 
