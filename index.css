@@ -226,7 +226,7 @@ footer {
   }
 
   nav > ul {
-    gap: 10px;
+    gap: 16px;
   }
 
   nav > ul > li > a {
@@ -316,7 +316,7 @@ footer {
   }
 
   nav > ul {
-    gap: 12px;
+    gap: 20px;
     width: 100%;
     justify-content: center;
   }
@@ -418,7 +418,7 @@ footer {
 
   nav > ul {
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 25px;
 
     width: 100%;
   }
@@ -528,7 +528,7 @@ footer {
   nav > ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 35px;
   }
 
   nav > ul > li > a {
@@ -691,4 +691,5 @@ footer {
     transform: scale(1.03);
   }
 }
+
 
