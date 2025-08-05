@@ -27,7 +27,7 @@ width: 70px;
 
 }
 .navbar {
-  padding: 10px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,7 +59,7 @@ width: 70px;
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 95px;
+    top: 90px;
     left: 10px;
     width: 200px;
   }
@@ -88,10 +88,7 @@ nav {
   z-index: 100;
 }
 
-nav > img {
-  height: 70px;
-  border-radius: 50%;
-}
+
 
 nav > ul {
   list-style: none;
@@ -120,7 +117,7 @@ nav > ul > li > a:hover {
 }
 
 .main {
-  height: calc(100vh - 125px);
+  height: calc(100vh - 130px);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -754,6 +751,7 @@ footer {
     transform: scale(1.03);
   }
 }
+
 
 
 
