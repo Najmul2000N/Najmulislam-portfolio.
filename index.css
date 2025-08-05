@@ -33,7 +33,7 @@ nav > img {
 nav > ul {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 35px;
 }
 
 nav > ul > li > a {
@@ -691,3 +691,4 @@ footer {
     transform: scale(1.03);
   }
 }
+
